@@ -33,7 +33,7 @@ async function main() {
 
         const contract = network.getContract('delivery');
 
-        await contract.submitTransaction('AddNewDeliverer', '4444', 'Alice');
+        await contract.submitTransaction('AddNewDeliverer', '4444', 'Trudy');
         console.log('Transaction has been submitted');
 
         await gateway.disconnect();
